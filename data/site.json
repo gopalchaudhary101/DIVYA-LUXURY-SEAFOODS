@@ -37,8 +37,8 @@
     "facebook": ""
   },
   "form_endpoint": {
-    "_comment": "Optional: free Web3Forms access key (https://web3forms.com). Empty = forms send via WhatsApp / email only.",
-    "web3forms_access_key": ""
+    "_comment": "Set server_form to true ONLY after RESEND_API_KEY and NOTIFY_EMAIL secrets are added in Cloudflare Pages and a live test enquiry arrives. Until then the form sends via WhatsApp / email.",
+    "server_form": false
   },
   "google_site_verification": "",
   "bing_site_verification": "",

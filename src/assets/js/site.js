@@ -27,6 +27,8 @@
   if (p) F("message").value = "Product: " + p.slice(0, 120) + "\n";
 
   var via = "wa";
+  var started = Date.now();
+  var busy = false;
   form.querySelectorAll("button[data-via]").forEach(function (b) {
     b.addEventListener("click", function () { via = b.getAttribute("data-via"); });
   });
@@ -85,23 +87,51 @@
     return { subject: label + " — " + F("company").value.trim(), body: lines.join("\n") };
   }
 
+  function payload() {
+    return {
+      type: form.querySelector('input[name="type"]:checked').value,
+      name: F("name").value, company: F("company").value, phone: F("phone").value, email: F("email").value,
+      btype: F("btype").value, city: F("city").value, message: F("message").value,
+      interests: Array.prototype.map.call(form.querySelectorAll('input[name="interest"]:checked'), function (c) { return c.value; }),
+      botcheck: F("botcheck").value, elapsed_ms: Date.now() - started
+    };
+  }
+
+  function sendServer() {
+    if (busy) return;
+    busy = true;
+    var btns = form.querySelectorAll("button[type=submit]");
+    btns.forEach(function (b) { b.disabled = true; });
+    status.className = "form-status"; status.textContent = "Sending…";
+    fetch("/api/enquiry", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload()) })
+      .then(function (r) { return r.json().catch(function () { return { ok: false }; }).then(function (d) { return { status: r.status, d: d }; }); })
+      .then(function (res) {
+        if (res.d && res.d.ok) {
+          status.className = "form-status ok";
+          status.textContent = "Thank you — your enquiry has reached our sales team. We will reply on the phone number or email you gave.";
+          form.reset(); started = Date.now();
+        } else if (res.status === 422 && res.d.fields) {
+          Object.keys(res.d.fields).forEach(function (k) { var el = F(k); if (el) setErr(el, res.d.fields[k]); });
+          status.className = "form-status bad"; status.textContent = "Please check the highlighted fields.";
+        } else if (res.status === 429) {
+          status.className = "form-status bad"; status.textContent = "Too many attempts. Please wait a few minutes, or use WhatsApp.";
+        } else {
+          status.className = "form-status bad"; status.textContent = "We couldn't send your enquiry online. Please use the WhatsApp or email button instead — nothing was sent.";
+        }
+      })
+      .catch(function () {
+        status.className = "form-status bad"; status.textContent = "Network problem — nothing was sent. Please try again or use WhatsApp.";
+      })
+      .then(function () { busy = false; btns.forEach(function (b) { b.disabled = false; }); });
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     status.className = "form-status"; status.textContent = "";
     if (F("botcheck").value) return; // bot trap
     if (!validate()) { status.className = "form-status bad"; status.textContent = "Please check the highlighted fields."; return; }
     var m = compose();
-    var key = form.getAttribute("data-key");
-
-    if (key) {
-      // Optional server-side copy via Web3Forms (only if an access key is configured)
-      var fd = new FormData();
-      fd.append("access_key", key); fd.append("subject", m.subject); fd.append("from_name", "Website enquiry");
-      fd.append("message", m.body); fd.append("botcheck", "");
-      if (F("email").value.trim()) fd.append("replyto", F("email").value.trim());
-      fetch("https://api.web3forms.com/submit", { method: "POST", body: fd }).catch(function () {});
-    }
-
+    if (via === "server") { sendServer(); return; }
     if (via === "email") {
       location.href = "mailto:" + form.getAttribute("data-email") + "?subject=" + encodeURIComponent(m.subject) + "&body=" + encodeURIComponent(m.body);
       status.className = "form-status ok";

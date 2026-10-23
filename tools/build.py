@@ -97,8 +97,8 @@ def products_block(slug):
 
 def category_cards():
     meta = {
-        "seafood": ("lobster-tail", "Premium Seafood", "/seafood/"),
-        "japanese-asian-foods": ("sushi-rice", "Japanese & Asian Foods", "/japanese-asian-foods/"),
+        "seafood": ("seafood/lobster-tail", "Premium Seafood", "/seafood/"),
+        "japanese-asian-foods": ("japanese-asian/sushi-rice", "Japanese & Asian Foods", "/japanese-asian-foods/"),
         "imported-cheese": (None, "Imported Cheese", "/imported-cheese/"),
         "chicken-lamb": (None, "Chicken, Lamb & Poultry", "/chicken-lamb/"),
     }
@@ -111,10 +111,16 @@ def category_cards():
     return "\n".join(out)
 
 
+def stock_fig(path, alt, caption="Illustrative photo", cls="photo"):
+    """A licensed stock photo (see IMAGE-CREDITS.md / manifest.json), always captioned as illustrative."""
+    return (f'<figure class="{cls}"><img src="/assets/img/stock/{path}-900.webp" srcset="/assets/img/stock/{path}-900.webp 900w, /assets/img/stock/{path}-1600.webp 1600w" '
+            f'sizes="(max-width: 860px) 100vw, 560px" width="900" height="600" loading="lazy" decoding="async" alt="{e(alt)}"><figcaption>{e(caption)}</figcaption></figure>')
+
+
 def mosaic():
-    picks = [("lobster-tail", "Frozen lobster tails"), ("tuna-yellowfin-saku", "Yellowfin tuna saku block"),
-             ("chilean-sea-bass", "Chilean sea bass fillet"), ("mud-crabs", "Live-tied mud crabs"),
-             ("squid-tube", "IQF squid tubes"), ("sushi-rice", "Premium sushi rice")]
+    picks = [("seafood/lobster-tail", "Frozen lobster tails measured against a steel rule"), ("seafood/tuna-yellowfin-saku", "Yellowfin tuna saku block"),
+             ("seafood/chilean-sea-bass", "Chilean sea bass fillet"), ("seafood/mud-crabs", "Tied mud crabs"),
+             ("seafood/squid-tube", "Packed IQF squid tubes"), ("japanese-asian/sushi-rice", "Kokuho premium rice pack")]
     cells = "".join(f'<figure class="m m{i}">{img(s, a, sizes="(max-width:900px) 33vw, 220px", eager=i < 2)}</figure>' for i, (s, a) in enumerate(picks))
     return f'<div class="mosaic">{cells}</div>'
 
@@ -133,10 +139,10 @@ def contact_block():
 
 
 def enquiry_form():
-    key = SITE["form_endpoint"]["web3forms_access_key"]
+    server = SITE["form_endpoint"].get("server_form", False)
     cats = "".join(f'<label class="cb"><input type="checkbox" name="interest" value="{e(v)}"> {e(v)}</label>' for v in
                    ["Seafood", "Japanese & Asian foods", "Imported cheese", "Chicken & lamb", "Other"])
-    return f'''<form class="enq" id="enquiry" novalidate data-wa="{SITE["whatsapp"]}" data-email="{SITE["email"]}" data-key="{e(key)}">
+    return f'''<form class="enq" id="enquiry" novalidate data-wa="{SITE["whatsapp"]}" data-email="{SITE["email"]}" data-server="{"1" if server else "0"}">
   <fieldset class="seg"><legend>I would like to</legend>
     <label><input type="radio" name="type" value="quote" checked> Request a quote</label>
     <label><input type="radio" name="type" value="catalogue"> Request the catalogue</label>
@@ -159,7 +165,8 @@ def enquiry_form():
   <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
   <p class="consent">We use these details only to respond to your enquiry. See our <a href="/privacy-policy/">privacy policy</a>.</p>
   <div class="actions">
-    <button type="submit" class="btn btn-gold" data-via="wa">{icon("wa")} Send via WhatsApp</button>
+    {'<button type="submit" class="btn btn-gold" data-via="server">Submit enquiry</button>' if server else ''}
+    <button type="submit" class="btn {"btn-line" if server else "btn-gold"}" data-via="wa">{icon("wa")} Send via WhatsApp</button>
     <button type="submit" class="btn btn-line" data-via="email">{icon("mail")} Send via email</button>
   </div>
   <p class="form-status" role="status" aria-live="polite"></p>
@@ -355,11 +362,12 @@ def render_body(src, meta):
         if k in src:
             src = src.replace(k, fn())
     src = re.sub(r"\{\{products:([a-z-]+)\}\}", lambda m: products_block(m.group(1)), src)
-    note = " If you choose to send it, a copy of the enquiry is also delivered to our inbox through our form service (Web3Forms)." if SITE["form_endpoint"]["web3forms_access_key"] else ""
+    note = " If you use the \"Submit enquiry\" button, your details are sent securely from our website to our sales inbox through our email delivery provider (Resend); they are not stored on the website." if SITE["form_endpoint"].get("server_form") else ""
     src = src.replace("{{form_note}}", note)
     src = src.replace("{{email}}", e(SITE["email"])).replace("{{legal_name}}", e(SITE["legal_name"]))
     src = src.replace("{{brand}}", e(SITE["brand"])).replace("{{updated}}", meta.get("updated", TODAY))
     src = src.replace("{{address}}", e(f'{SITE["address"]["street"]}, {SITE["address"]["locality"]} {SITE["address"]["postal"]}, India'))
+    src = re.sub(r"\{\{stock:([a-z0-9/-]+)\|(.+?)\}\}", lambda m: stock_fig(m.group(1), m.group(2)), src)
     src = re.sub(r"\{\{wa:(.+?)\}\}", lambda m: e(wa_link(m.group(1))), src)
     src = re.sub(r"\{\{icon:([a-z]+)\}\}", lambda m: icon(m.group(1)), src)
     left = re.findall(r"\{\{[^}]+\}\}", src)

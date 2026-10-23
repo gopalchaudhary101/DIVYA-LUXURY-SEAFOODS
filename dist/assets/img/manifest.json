@@ -1,0 +1,501 @@
+{
+  "_comment": "Every image published on the website. product_id is null because the catalogue has no verified product IDs yet. Full audit of the u-engage folder is kept privately (not published).",
+  "images": [
+    {
+      "filename": "products/japanese-asian/bamboo-shoot",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Bamboo Shoots — product photo from Divya Luxury Foods",
+      "product_name": "Bamboo Shoots",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/green-curry-paste",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Green Curry Paste — product photo from Divya Luxury Foods",
+      "product_name": "Green Curry Paste",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/japanese-pepper",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Shichimi Togarashi — product photo from Divya Luxury Foods",
+      "product_name": "Shichimi Togarashi",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/miso-paste",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Shiro Miso Paste — product photo from Divya Luxury Foods",
+      "product_name": "Shiro Miso Paste",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/potato-starch",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Potato Starch — product photo from Divya Luxury Foods",
+      "product_name": "Potato Starch",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/sesame-oil",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Toasted Sesame Seed Oil — product photo from Divya Luxury Foods",
+      "product_name": "Toasted Sesame Seed Oil",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/sushi-rice",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Kokuho Premium Rice (California) — product photo from Divya Luxury Foods",
+      "product_name": "Kokuho Premium Rice (California)",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/tempura-powder",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Tempura Batter Mix — product photo from Divya Luxury Foods",
+      "product_name": "Tempura Batter Mix",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/thai-rice-jasmine",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Thai Jasmine Rice — product photo from Divya Luxury Foods",
+      "product_name": "Thai Jasmine Rice",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/japanese-asian/yellow-curry-paste",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "japanese-asian",
+      "product_category_page": "/japanese-asian-foods/",
+      "alt": "Yellow Curry Paste — product photo from Divya Luxury Foods",
+      "product_name": "Yellow Curry Paste",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/blue-crabs",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Blue Crabs — product photo from Divya Luxury Foods",
+      "product_name": "Blue Crabs",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/chilean-sea-bass",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Chilean Sea Bass — product photo from Divya Luxury Foods",
+      "product_name": "Chilean Sea Bass",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/imitation-crab-sticks",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Imitation Crab Sticks (Surimi) — product photo from Divya Luxury Foods",
+      "product_name": "Imitation Crab Sticks (Surimi)",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/lobster-tail",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Lobster Tail — product photo from Divya Luxury Foods",
+      "product_name": "Lobster Tail",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/mud-crabs",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Mud Crabs — product photo from Divya Luxury Foods",
+      "product_name": "Mud Crabs",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/octopus-whole",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Octopus Whole — product photo from Divya Luxury Foods",
+      "product_name": "Octopus Whole",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/pomfret-white",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "White Pomfret — product photo from Divya Luxury Foods",
+      "product_name": "White Pomfret",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/squid-tube",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Squid Tube IQF — product photo from Divya Luxury Foods",
+      "product_name": "Squid Tube IQF",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/surmai-seer-fish",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Surmai (Seer Fish) Steaks — product photo from Divya Luxury Foods",
+      "product_name": "Surmai (Seer Fish) Steaks",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/tilapia-fillet",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Tilapia Fillet — product photo from Divya Luxury Foods",
+      "product_name": "Tilapia Fillet",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "products/seafood/tuna-yellowfin-saku",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "category": "seafood",
+      "product_category_page": "/seafood/",
+      "alt": "Yellowfin Tuna Saku Block — product photo from Divya Luxury Foods",
+      "product_name": "Yellowfin Tuna Saku Block",
+      "product_id": null,
+      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
+      "licence_status": "OWN_PHOTO",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "filename": "stock/seafood/salmon-fillet-on-ice",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "seafood",
+      "alt": "Raw salmon fillet with skin on crushed ice",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/14062150/ — Deane Bayas (@dbaler); original file \"pexels-dbaler-14062150.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "filename": "stock/seafood/fish-fillet-on-ice-hotel-pan",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "seafood",
+      "alt": "Fish fillet on ice in a stainless-steel kitchen tray",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/14062101/ — Deane Bayas (@dbaler); original file \"pexels-dbaler-14062101.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "filename": "stock/fish-prawns/prawns-in-woven-basket",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "fish-prawns",
+      "alt": "Whole prawns in a woven basket at a fish market",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/33202174/ — ManojMk Brucelee; original file \"pexels-manojmk-brucelee-743756295-33202174.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 1920
+    },
+    {
+      "filename": "stock/fish-prawns/prawns-market-close-up",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "fish-prawns",
+      "alt": "Close-up of whole prawns at a fish market",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/33202175/ — ManojMk Brucelee; original file \"pexels-manojmk-brucelee-743756295-33202175.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2400
+    },
+    {
+      "filename": "stock/fish-prawns/prawns-held-in-hand",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "fish-prawns",
+      "alt": "Freshly caught prawns held in a hand",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/32230044/ — Mahmudul Hasan; original file \"pexels-mahmudul-hasan-2149253486-32230044.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2400
+    },
+    {
+      "filename": "stock/general-gourmet/grilled-prawns-plated",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "general-gourmet",
+      "alt": "Grilled prawns with lemon and herbs on a black plate",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/8882949/ — Nadin Sh; original file \"pexels-nadin-sh-78971847-8882949.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2133
+    },
+    {
+      "filename": "stock/chicken-lamb/chicken-breasts-on-slate",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "chicken-lamb",
+      "alt": "Raw chicken breasts on slate with garlic and herbs",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/6107730/ — alleksana; original file \"pexels-alleksana-6107730.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2400
+    },
+    {
+      "filename": "stock/chicken-lamb/chicken-breast-rosemary",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "chicken-lamb",
+      "alt": "Raw chicken breast with rosemary on marble",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/5769381/ — Leeloo The First; original file \"pexels-leeloothefirst-5769381.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 1068
+    },
+    {
+      "filename": "stock/chicken-lamb/duck-breast-sliced-plated",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "chicken-lamb",
+      "alt": "Sliced roasted duck breast with sauce on a plate",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/17751633/ — Valeria Boltneva; original file \"pexels-valeriya-17751633.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2399
+    },
+    {
+      "filename": "stock/chicken-lamb/duck-breast-seared-plated",
+      "variants": [
+        "-900.webp",
+        "-1600.webp"
+      ],
+      "category": "chicken-lamb",
+      "alt": "Seared duck breast with broccoli and purée",
+      "product_name": null,
+      "product_id": null,
+      "source": "https://www.pexels.com/photo/36179285/ — Valeria Boltneva; original file \"pexels-valeriya-36179285.jpg\" from the u-engage folder",
+      "licence_status": "PEXELS_LICENSE_VERIFIED_2026-10-23",
+      "usage_note": "Illustrative mood image — not a photo of Divya stock",
+      "width": 1600,
+      "height": 2399
+    }
+  ]
+}
