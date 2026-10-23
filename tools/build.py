@@ -120,7 +120,7 @@ def stock_fig(path, alt, caption="Illustrative photo", cls="photo"):
 
 def mosaic():
     picks = [("seafood/lobster-whole", "Whole spiny lobsters measured against a steel rule"), ("seafood/tuna-yellowfin-saku", "Yellowfin tuna saku block"),
-             ("seafood/chilean-sea-bass", "Chilean sea bass fillet"), ("seafood/mud-crabs", "Tied mud crabs"),
+             ("seafood/surmai-seer-fish", "Packed surmai (seer fish) steaks"), ("seafood/mud-crabs", "Tied mud crabs"),
              ("seafood/squid-tube", "Packed IQF squid tubes"), ("japanese-asian/sushi-rice", "Kokuho premium rice pack")]
     cells = "".join(f'<figure class="m m{i}">{img(s, a, sizes="(max-width:900px) 33vw, 220px", eager=i < 2)}</figure>' for i, (s, a) in enumerate(picks))
     return f'<div class="mosaic">{cells}</div>'

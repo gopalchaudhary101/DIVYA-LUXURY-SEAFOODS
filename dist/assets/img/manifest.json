@@ -178,22 +178,6 @@
       "height": 900
     },
     {
-      "filename": "products/seafood/chilean-sea-bass",
-      "variants": [
-        "-480.webp",
-        "-900.webp"
-      ],
-      "category": "seafood",
-      "product_category_page": "/seafood/",
-      "alt": "Chilean Sea Bass — product photo from Divya Luxury Foods",
-      "product_name": "Chilean Sea Bass",
-      "product_id": null,
-      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
-      "licence_status": "OWN_PHOTO",
-      "width": 900,
-      "height": 900
-    },
-    {
       "filename": "products/seafood/imitation-crab-sticks",
       "variants": [
         "-480.webp",

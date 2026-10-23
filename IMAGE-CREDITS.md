@@ -5,7 +5,7 @@ The machine-readable list of every published image (filename, category, alt text
 
 | Folder | Count | Source | Licence |
 |---|---|---|---|
-| `src/assets/img/products/seafood/` | 12 | Divya Foods' own product photos (marked "Own product photo" in the company catalogue, plus 2 warehouse photos added 23 Oct 2026) | Company-owned |
+| `src/assets/img/products/seafood/` | 11 | Divya Foods' own product photos (marked "Own product photo" in the company catalogue, plus 2 warehouse photos added 23 Oct 2026) | Company-owned |
 | `src/assets/img/products/japanese-asian/` | 14 | Divya Foods' own product photos (4 warehouse photos added 23 Oct 2026) | Company-owned |
 | `src/assets/img/stock/**` | 10 | Pexels — each photo page opened and checked on 23 Oct 2026 (IDs and photographers in manifest.json) | Pexels License (free commercial use) |
 
