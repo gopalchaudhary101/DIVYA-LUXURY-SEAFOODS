@@ -560,6 +560,38 @@
         "-900.webp"
       ],
       "width": 900
+    },
+    {
+      "alt": "Whole Lobster — product photo from Divya Luxury Foods",
+      "category": "seafood",
+      "filename": "products/seafood/lobster-whole",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/seafood/",
+      "product_id": null,
+      "product_name": "Whole Lobster",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"dup-lobster-tail-3.jpeg (file name says lobster tail; photo shows whole lobsters)\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
+    },
+    {
+      "alt": "Sushi Vinegar — product photo from Divya Luxury Foods",
+      "category": "japanese-asian",
+      "filename": "products/japanese-asian/sushi-vinegar",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/japanese-asian-foods/",
+      "product_id": null,
+      "product_name": "Sushi Vinegar",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"dup-sesame-oil-bottle-2.jpeg (file name says sesame oil; label reads Sushi Vinegar)\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
     }
   ]
 }

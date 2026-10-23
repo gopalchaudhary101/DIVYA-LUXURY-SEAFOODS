@@ -81,7 +81,10 @@
             "Sweet Prawns",
             "Scallops (Hotate)",
             "Soft Shell Crab",
-            "Whole Lobster",
+            {
+              "name": "Whole Lobster",
+              "img": "seafood/lobster-whole"
+            },
             "Squid Rings"
           ]
         },
@@ -154,7 +157,10 @@
           "name": "Sushi essentials",
           "items": [
             "Nori Sheets",
-            "Sushi Vinegar",
+            {
+              "name": "Sushi Vinegar",
+              "img": "japanese-asian/sushi-vinegar"
+            },
             "Wasabi Paste & Powder",
             "Gari (Pickled Ginger)",
             "Panko Bread Crumbs",
