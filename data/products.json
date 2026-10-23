@@ -63,7 +63,10 @@
             "Smoked Salmon",
             "Black Cod",
             "Basa Fillet (Indian & Vietnamese)",
-            "Bhetki (Indian Sea Bass) Fillet",
+            {
+              "name": "Bhetki (Indian Sea Bass) Fillet",
+              "img": "seafood/bhetki-fillet"
+            },
             "Red Snapper Fillet",
             "River Sole Fillet"
           ]
@@ -162,10 +165,16 @@
         {
           "name": "Sauces & seasonings",
           "items": [
-            "Soy Sauce & Tamari",
+            {
+              "name": "Soy Sauce & Tamari",
+              "img": "japanese-asian/soy-sauce"
+            },
             "Mirin",
             "Cooking Sake",
-            "Japanese Mayonnaise",
+            {
+              "name": "Japanese Mayonnaise",
+              "img": "japanese-asian/japanese-mayonnaise"
+            },
             "Tonkatsu Sauce",
             "Oyster Sauce",
             "Hondashi & Kombu Dashi",
@@ -181,7 +190,10 @@
           "name": "Noodles, wrappers & pantry",
           "items": [
             "Ramen, Udon, Soba & Somen",
-            "Glass & Rice Noodles",
+            {
+              "name": "Glass & Rice Noodles",
+              "img": "japanese-asian/rice-noodles"
+            },
             "Gyoza, Wonton & Spring Roll Sheets",
             "Seaweed Salads (Wakame, Kaiso)",
             "Kombu & Hijiki",

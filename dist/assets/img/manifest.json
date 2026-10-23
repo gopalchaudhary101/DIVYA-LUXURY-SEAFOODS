@@ -496,6 +496,70 @@
       "usage_note": "Illustrative mood image — not a photo of Divya stock",
       "width": 1600,
       "height": 2399
+    },
+    {
+      "alt": "Bhetki (Indian Sea Bass) Fillet — product photo from Divya Luxury Foods",
+      "category": "seafood",
+      "filename": "products/seafood/bhetki-fillet",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/seafood/",
+      "product_id": null,
+      "product_name": "Bhetki (Indian Sea Bass) Fillet",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"BETHKI.jpeg\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
+    },
+    {
+      "alt": "Soy Sauce & Tamari — product photo from Divya Luxury Foods",
+      "category": "japanese-asian",
+      "filename": "products/japanese-asian/soy-sauce",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/japanese-asian-foods/",
+      "product_id": null,
+      "product_name": "Soy Sauce & Tamari",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"wholesale-dek-som-boon-soy-sauce-1.jpeg\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
+    },
+    {
+      "alt": "Glass & Rice Noodles — product photo from Divya Luxury Foods",
+      "category": "japanese-asian",
+      "filename": "products/japanese-asian/rice-noodles",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/japanese-asian-foods/",
+      "product_id": null,
+      "product_name": "Glass & Rice Noodles",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"wholesale-rice-vermicelli-bag.jpeg\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
+    },
+    {
+      "alt": "Japanese Mayonnaise — product photo from Divya Luxury Foods",
+      "category": "japanese-asian",
+      "filename": "products/japanese-asian/japanese-mayonnaise",
+      "height": 900,
+      "licence_status": "OWN_PHOTO",
+      "product_category_page": "/japanese-asian-foods/",
+      "product_id": null,
+      "product_name": "Japanese Mayonnaise",
+      "source": "Divya Foods warehouse photo (local folder \"product images\", original \"wholesale-suzuka-mayonnaise-not-kewpie.jpeg\"); visually matched 23 Oct 2026",
+      "variants": [
+        "-480.webp",
+        "-900.webp"
+      ],
+      "width": 900
     }
   ]
 }
