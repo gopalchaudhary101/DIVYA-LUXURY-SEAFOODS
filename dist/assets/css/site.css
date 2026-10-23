@@ -35,7 +35,7 @@ p{margin:0 0 1em}
 .skip:focus{top:12px}
 .i{flex:none;vertical-align:middle}
 .eyebrow{display:inline-block;font:600 .74rem/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:14px}
-.dark .eyebrow,.hero .eyebrow,.band .eyebrow{color:var(--gold)}
+.dark .eyebrow,.hero .eyebrow,.page-hero .eyebrow,.band .eyebrow{color:var(--gold)}
 .lead{font-size:1.14rem;color:var(--ink-2);max-width:62ch}
 .muted{color:var(--ink-2)}
 .note{font-size:.92rem;color:var(--ink-2);border-left:3px solid var(--gold);padding:6px 0 6px 14px;margin-top:28px}
