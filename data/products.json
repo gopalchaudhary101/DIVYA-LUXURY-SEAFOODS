@@ -1,0 +1,95 @@
+{
+  "_comment": "Product range shown on the website. No prices or stock levels are published. 'img' must match a file in src/assets/img/products/<img>-480.webp. Range is indicative — confirm availability with the sales team.",
+  "categories": [
+    {
+      "slug": "seafood",
+      "name": "Premium Seafood",
+      "short": "Frozen fish, prawns, crab, lobster, squid and sushi-grade cuts.",
+      "groups": [
+        {
+          "name": "Featured from our cold store",
+          "items": [
+            { "name": "Lobster Tail", "img": "lobster-tail" },
+            { "name": "Yellowfin Tuna Saku Block", "img": "tuna-yellowfin-saku" },
+            { "name": "Chilean Sea Bass", "img": "chilean-sea-bass" },
+            { "name": "Mud Crabs", "img": "mud-crabs" },
+            { "name": "Blue Crabs", "img": "blue-crabs" },
+            { "name": "Squid Tube IQF", "img": "squid-tube" },
+            { "name": "Octopus Whole", "img": "octopus-whole" },
+            { "name": "Surmai (Seer Fish) Steaks", "img": "surmai-seer-fish" },
+            { "name": "White Pomfret", "img": "pomfret-white" },
+            { "name": "Tilapia Fillet", "img": "tilapia-fillet" },
+            { "name": "Imitation Crab Sticks (Surimi)", "img": "imitation-crab-sticks" }
+          ]
+        },
+        {
+          "name": "Fish & fillets",
+          "items": ["Norwegian Salmon Fillet (sushi grade)", "Salmon Portions & Loin", "Smoked Salmon", "Black Cod", "Basa Fillet (Indian & Vietnamese)", "Bhetki (Indian Seabass) Fillet", "Red Snapper Fillet", "River Sole Fillet"]
+        },
+        {
+          "name": "Prawns & shellfish",
+          "items": ["IQF Prawns", "Head-On Prawns", "Tempura Prawns", "Nobashi Prawns", "Sweet Prawns", "Scallops (Hotate)", "Soft Shell Crab", "Whole Lobster", "Squid Rings"]
+        },
+        {
+          "name": "Japanese cuisine seafood",
+          "items": ["Hamachi (Yellowtail) Fillet", "Kampachi (Amberjack) Fillet", "Unagi Kabayaki", "Sushi-grade Tuna Loin", "Boiled Octopus", "Ikura (Salmon Roe)", "Tobiko (Flying Fish Roe)", "Squid Ink"]
+        }
+      ]
+    },
+    {
+      "slug": "japanese-asian-foods",
+      "name": "Japanese & Asian Specialty Foods",
+      "short": "Sushi rice, nori, sauces, noodles, pastes and pantry staples.",
+      "groups": [
+        {
+          "name": "Featured from our cold store",
+          "items": [
+            { "name": "Kokuho Premium Rice (California)", "img": "sushi-rice" },
+            { "name": "Thai Jasmine Rice", "img": "thai-rice-jasmine" },
+            { "name": "Shichimi Togarashi", "img": "japanese-pepper" },
+            { "name": "Shiro Miso Paste", "img": "miso-paste" },
+            { "name": "Toasted Sesame Seed Oil", "img": "sesame-oil" },
+            { "name": "Tempura Batter Mix", "img": "tempura-powder" },
+            { "name": "Potato Starch", "img": "potato-starch" },
+            { "name": "Green Curry Paste", "img": "green-curry-paste" },
+            { "name": "Yellow Curry Paste", "img": "yellow-curry-paste" },
+            { "name": "Bamboo Shoots", "img": "bamboo-shoot" }
+          ]
+        },
+        {
+          "name": "Sushi essentials",
+          "items": ["Nori Sheets", "Sushi Vinegar", "Wasabi Paste & Powder", "Gari (Pickled Ginger)", "Panko Bread Crumbs", "Soy Sheets (Mamenori)", "Edamame"]
+        },
+        {
+          "name": "Sauces & seasonings",
+          "items": ["Soy Sauce & Tamari", "Mirin", "Cooking Sake", "Japanese Mayonnaise", "Tonkatsu Sauce", "Oyster Sauce", "Hondashi & Kombu Dashi", "Furikake", "Katsuobushi (Bonito Flakes)", "Sesame Paste & Dressing", "Yuzu Kosho", "Gochujang (Korean Chilli Paste)", "Sriracha & Sweet Chilli Sauce"]
+        },
+        {
+          "name": "Noodles, wrappers & pantry",
+          "items": ["Ramen, Udon, Soba & Somen", "Glass & Rice Noodles", "Gyoza, Wonton & Spring Roll Sheets", "Seaweed Salads (Wakame, Kaiso)", "Kombu & Hijiki", "Japanese Curry Roux", "Matcha Powder", "Dried Shiitake & Wood Ear", "Tofu"]
+        }
+      ]
+    },
+    {
+      "slug": "imported-cheese",
+      "name": "Imported Cheese",
+      "short": "Imported cheeses for kitchens, bakeries and cafés.",
+      "groups": []
+    },
+    {
+      "slug": "chicken-lamb",
+      "name": "Premium Chicken, Lamb & Poultry",
+      "short": "Frozen chicken, lamb cuts, duck and cold cuts.",
+      "groups": [
+        {
+          "name": "Lamb",
+          "items": ["Lamb Rack (cap on / cap off)", "Lamb Loin (boneless)", "Lamb Loin Chops", "Lamb Leg (boneless)", "Lamb Shank"]
+        },
+        {
+          "name": "Chicken & poultry",
+          "items": ["Frozen Chicken", "Chicken Nuggets", "Chicken Sausages", "Cold Cuts", "Whole Duck", "Duck Breast (raw & smoked)", "Duck Legs", "Whole Turkey"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/request-quote      /enquiry/?type=quote       301
+/request-quote/     /enquiry/?type=quote       301
+/request-catalogue  /enquiry/?type=catalogue   301
+/request-catalogue/ /enquiry/?type=catalogue   301
+/catalogue          /enquiry/?type=catalogue   301
+/japanese           /japanese-asian-foods/     301
+/cheese             /imported-cheese/          301
+/shipping-policy    /delivery-cancellation-refund-policy/ 301
+/refund-policy      /delivery-cancellation-refund-policy/ 301

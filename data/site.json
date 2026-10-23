@@ -1,0 +1,52 @@
+{
+  "_comment": "Edit business details here. Rebuild with: python3 tools/build.py. Leave a field empty (\"\") to hide it on the site.",
+  "site_url": "https://divyaluxuryfoods.pages.dev",
+  "brand": "Divya Luxury Foods",
+  "legal_name": "Divya Luxury Foods Pvt. Ltd.",
+  "tagline": "Premium seafood & imported foods for professional kitchens",
+  "description": "Divya Luxury Foods Pvt. Ltd. is a Delhi-based supplier of premium frozen seafood, Japanese and Asian specialty foods, imported cheese and quality chicken and lamb for hotels, restaurants, caterers and food businesses across India.",
+  "phones": [
+    {
+      "label": "Sales",
+      "display": "+91 99991 23242",
+      "tel": "+919999123242"
+    },
+    {
+      "label": "Orders & WhatsApp",
+      "display": "+91 73034 36108",
+      "tel": "+917303436108"
+    }
+  ],
+  "whatsapp": "917303436108",
+  "email": "divyaluxuryfoods@gmail.com",
+  "address": {
+    "street": "O-52, Ground Floor, Saurabh Vihar, Badarpur",
+    "locality": "New Delhi",
+    "region": "Delhi",
+    "postal": "110044",
+    "country": "IN",
+    "country_name": "India"
+  },
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=O-52+Saurabh+Vihar+Badarpur+New+Delhi+110044",
+  "hours": "",
+  "gstin": "07AALCD3845N1Z4",
+  "fssai": "13325999000401",
+  "social": {
+    "instagram": "https://www.instagram.com/divyaluxuryfoodpvt/",
+    "linkedin": "",
+    "facebook": ""
+  },
+  "form_endpoint": {
+    "_comment": "Optional: free Web3Forms access key (https://web3forms.com). Empty = forms send via WhatsApp / email only.",
+    "web3forms_access_key": ""
+  },
+  "google_site_verification": "",
+  "bing_site_verification": "",
+  "iec": "AALCD3845N",
+  "_sources": {
+    "gstin": "GST REG-06 certificate, valid from 10/06/2025",
+    "fssai": "FSSAI Central Licence (Form C), renewal issued 01-05-2026, valid up to 04-07-2027; kinds: Importer, Wholesaler, Distributor, Trader/Merchant-Exporter",
+    "iec": "DGFT IEC shown in FSSAI annexure",
+    "email": "Email on DGFT record in FSSAI annexure (repo had salesdivyafoods@gmail.com)"
+  }
+}
