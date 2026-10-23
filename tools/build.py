@@ -18,7 +18,8 @@ SITE = json.loads((ROOT / "data/site.json").read_text(encoding="utf-8"))
 CATALOG = json.loads((ROOT / "data/products.json").read_text(encoding="utf-8"))
 BASE = SITE["site_url"].rstrip("/")
 TODAY = date.today().isoformat()
-ASSET_V = TODAY.replace("-", "")
+import hashlib
+ASSET_V = hashlib.sha1(b"".join((ROOT / f).read_bytes() for f in ("src/assets/css/site.css", "src/assets/js/site.js"))).hexdigest()[:10]  # content hash: changes whenever CSS/JS change
 
 NAV = [
     ("Products", "/products/", [
