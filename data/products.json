@@ -9,10 +9,7 @@
         {
           "name": "Featured from our cold store",
           "items": [
-            {
-              "name": "Lobster Tail",
-              "img": "seafood/lobster-tail"
-            },
+            "Lobster Tail",
             {
               "name": "Yellowfin Tuna Saku Block",
               "img": "seafood/tuna-yellowfin-saku"

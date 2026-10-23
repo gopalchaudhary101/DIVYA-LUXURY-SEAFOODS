@@ -210,22 +210,6 @@
       "height": 900
     },
     {
-      "filename": "products/seafood/lobster-tail",
-      "variants": [
-        "-480.webp",
-        "-900.webp"
-      ],
-      "category": "seafood",
-      "product_category_page": "/seafood/",
-      "alt": "Lobster Tail — product photo from Divya Luxury Foods",
-      "product_name": "Lobster Tail",
-      "product_id": null,
-      "source": "Divya Foods company product photo (repo gopalchaudhary101/divya-foods, image_catalog.json: \"Own product photo — Divya Foods\")",
-      "licence_status": "OWN_PHOTO",
-      "width": 900,
-      "height": 900
-    },
-    {
       "filename": "products/seafood/mud-crabs",
       "variants": [
         "-480.webp",
