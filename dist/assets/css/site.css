@@ -294,3 +294,5 @@ p{margin:0 0 1em}
 .prose .photo{margin:1.6em 0}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .duo .photo img{aspect-ratio:4/5}
+.area{margin:22px 0 0;color:var(--ink-2);font-size:.95rem;max-width:80ch}
+.area strong{color:var(--navy)}

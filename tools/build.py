@@ -201,7 +201,17 @@ def credentials():
     return f'<ul class="creds" role="list">{lis}</ul>'
 
 
+def service_area():
+    sa = SITE.get("service_area", {})
+    cities = sa.get("primary", [])
+    if not cities:
+        return ""
+    return (f'<p class="area"><strong>Delhi NCR:</strong> {e(", ".join(cities))}. '
+            f'<strong>Pan-India:</strong> supply to customers across India — delivery method and timelines confirmed with each quotation.</p>')
+
+
 COMPONENTS = {
+    "{{service_area}}": service_area,
     "{{credentials}}": credentials,
     "{{category_cards}}": category_cards,
     "{{mosaic}}": mosaic,
@@ -269,7 +279,7 @@ def org_schema():
         "telephone": SITE["phones"][0]["tel"],
         "address": {"@type": "PostalAddress", "streetAddress": a["street"], "addressLocality": a["locality"],
                     "addressRegion": a["region"], "postalCode": a["postal"], "addressCountry": a["country"]},
-        "areaServed": {"@type": "Country", "name": "India"},
+        "areaServed": [{"@type": "City", "name": c} for c in SITE.get("service_area", {}).get("primary", [])] + [{"@type": "Country", "name": "India"}],
         "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "telephone": p["tel"],
                           "email": SITE["email"], "areaServed": "IN", "availableLanguage": ["en", "hi"]} for p in SITE["phones"]],
         "sameAs": [v for v in SITE["social"].values() if v],

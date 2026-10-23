@@ -7,14 +7,14 @@
   "description": "Divya Luxury Foods Pvt. Ltd. is a Delhi-based supplier of premium frozen seafood, Japanese and Asian specialty foods, imported cheese and quality chicken and lamb for hotels, restaurants, caterers and food businesses across India.",
   "phones": [
     {
-      "label": "Sales",
-      "display": "+91 99991 23242",
-      "tel": "+919999123242"
-    },
-    {
       "label": "Orders & WhatsApp",
       "display": "+91 73034 36108",
       "tel": "+917303436108"
+    },
+    {
+      "label": "Sales",
+      "display": "+91 99991 23242",
+      "tel": "+919999123242"
     }
   ],
   "whatsapp": "917303436108",
@@ -47,6 +47,19 @@
     "gstin": "GST REG-06 certificate, valid from 10/06/2025",
     "fssai": "FSSAI Central Licence (Form C), renewal issued 01-05-2026, valid up to 04-07-2027; kinds: Importer, Wholesaler, Distributor, Trader/Merchant-Exporter",
     "iec": "DGFT IEC shown in FSSAI annexure",
-    "email": "Email on DGFT record in FSSAI annexure (repo had salesdivyafoods@gmail.com)"
+    "email": "Email on DGFT record in FSSAI annexure (repo had salesdivyafoods@gmail.com)",
+    "phones": "+91 73034 36108 is on the DGFT/FSSAI record and the Google Maps listing; +91 99991 23242 only appears in the old app config — confirm it is still in use"
+  },
+  "service_area": {
+    "_comment": "Shown on Contact/Home and in structured data. Only list places you actually supply.",
+    "primary": [
+      "New Delhi",
+      "Gurugram",
+      "Noida",
+      "Greater Noida",
+      "Faridabad",
+      "Ghaziabad"
+    ],
+    "country": "India"
   }
 }
